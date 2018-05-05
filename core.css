@@ -1,0 +1,17 @@
+body {
+    background-color: darkslateblue;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    color: #fff;
+}
