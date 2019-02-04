@@ -1,6 +1,15 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+
+
 body
 {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: system;
     font-size: 16px;
 
     display: flex;
@@ -38,6 +47,7 @@ h1
     line-height: 1.5;
 
     margin: 0;
+    height: 30px;
 }
 h2,
 .h2
@@ -49,6 +59,11 @@ h2,
     display: block;
 
     margin: 0;
+}
+
+
+.title {
+    line-height: 30px;
 }
 
 
@@ -65,8 +80,6 @@ h2
 
 .h2
 {
-    line-height: 20px;
-
     display: inline-block;
 }
 
@@ -116,8 +129,7 @@ polygon
 
 .typed-cursor
 {
-    font-weight: 100;
-
+    /*font-weight: 100;*/
     -webkit-animation: blink .7s infinite;
        -moz-animation: blink .7s infinite;
         -ms-animation: blink .7s infinite;
